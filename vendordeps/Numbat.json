@@ -1,0 +1,31 @@
+{
+    "fileName": "Numbat.json",
+    "name": "Numbat",
+    "version": "0.0.1",
+    "frcYear": "2024",
+    "uuid": "d82ca4d4-53b9-4d65-9f20-649571fbd696",
+    "mavenUrls": [
+        "https://spacey-sooty.github.io/Numbat/releases/"
+    ],
+    "jsonUrl": "https://raw.githubusercontent.com/spacey-sooty/Numbat/master/Numbat.json",
+    "cppDependencies": [
+        {
+            "groupId": "curtinfrc.numbat",
+            "artifactId": "Numbat-cpp",
+            "version": "0.0.1",
+            "libName": "Numbat",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ]
+}
