@@ -15,7 +15,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Install Roborio Toolchain
-      run: ./gradlew installRoborioToolchain
+      run: ./gradlew installRoborioToolchain --stacktrace
 
     - name: Compile and run tests on robot code
-      run: ./gradlew build
+      run: ./gradlew build --stacktrace
